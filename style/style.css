@@ -1,1 +1,260 @@
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+* {margin: 0;
+  padding: 0;
+ box-sizing : border-box  ;
+}
+.navbar{
+     display: flex;
+  justify-content: space-between;
+  width: 92.5%;
+  height: 92px;
+  align-items: center;
+  padding: 16px 120px 16px 120px;
+  max-width:1600px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+.menu ul li {
+  text-decoration: none;
+  display: inline-flex;
 
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+}
+ .menu ul{
+     gap:32px ;
+  display: flex;
+  color: #000000;
+  padding-top: 34px;
+  padding-bottom: 34px;
+ }
+ .btn{
+    background-color: #469165;
+  color:#FFFFFF;
+  padding: 12px 16px 12px 16px;
+  border: none;
+  border-radius:4px;
+  cursor: pointer;
+ }
+ .btn:hover{
+  background-color: green;
+}
+#hero{
+     background-image: url(../assets/hero-bg.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 1600px;
+  height: 674px;
+  padding: 70px 120px 134px 120px;
+  justify-content: center;
+  align-items: flex-start;
+}
+#hero div{
+    text-align: center;
+    padding-top: 30px;
+}
+#early-txt span{
+  padding: 8px 8px 8px 8px;
+  background-color: #FFFFFF;
+  border-radius:10px;
+  color: #469165;
+  border: none;
+}
+#hero div h1 {
+  color: #FFFFFF;
+  font-size: 72px;
+}
+#hero div h1 span{
+  color: #469165;
+  background-color: none;
+}
+#hero div p{
+  font-size: medium;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+#green-btn{
+  background-color: #469165;
+  color: #FFFFFF;
+  padding: 12px 16px 12px 16px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 20px ;
+  cursor: pointer;
+}
+#green-btn:hover{
+    background-color: green;
+}
+#trans-btn{
+    color: #FFFFFF;
+  background-color:#fdfcfc00;
+  border: 1px solid white;
+  padding: 12px 16px 12px 16px;
+  cursor: pointer;
+}
+#trans-btn:hover{
+  background-color:green;
+}
+.text-section{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.text-section div h2{
+  font-size: 48px ;
+}
+.text-section div p{
+  font-size: 16px;
+  color:  #627382;
+}
+.card img{
+  height: 32px;
+  width: 32px;
+  background-color: #f95555;
+  margin: 16px auto;
+  padding: 6px;
+  border-radius: 45px;
+}
+#card-section {
+    display: flex;
+    gap: 16px;
+    justify-content: center;   
+}
+.card{
+  text-align: center;
+  padding-top: 2px;
+
+  display: flex;
+  padding: 24px 24px 24px 24px;
+  height: 322px;
+  width: 300px;
+  background-color: #FFFFFF; 
+  border-radius: 12px;
+  margin: 16px;
+  flex-direction: column;
+  box-shadow: 0 4px 15px  rgba(16, 16, 16, 0.253)
+}
+.card:hover{
+  background-color: lightgrey;
+  color: aliceblue;
+
+}
+.card h5{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.card p{
+  font-size: 16px;
+}
+.idea{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 200px;
+}
+.idea-img{
+  height: 600px;
+  weight: 600px;
+}
+.idea-text{
+  margin-top: 100px;
+  text-align: left;
+}
+.idea-text h4 {
+ font-size: 16px;
+ color: #469165;
+ margin-bottom: 16px;
+}
+.idea-text h1{
+  font-size: 48px;
+  margin-bottom:16px ;
+}
+.idea-text h5{
+  font-size: 16px;
+  font-weight: normal;
+  color: #627382;
+  margin-bottom: 16px;
+}
+.idea-text {
+  margin-bottom: 6px;
+}
+.CheckCircle img{
+  vertical-align: middle;
+}
+.CheckCircle{
+  margin-bottom: 6px;
+}
+.clng-sec{
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+  padding: 80px 40px 80px 40px;
+  background-color:  #F7F6F2;
+  margin-left: 13.3%;
+  margin-right: 13.3%;
+  text-align: center;
+}
+.clng-sec div h3{
+  font-size: 40px;
+  font-weight: 700;
+}
+.clng-sec div h6 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  color:#627382;
+}
+.clng-sec div button{
+  background-color: #469165;
+  color:#FFFFFF;
+  padding: 12px 16px 12px 16px;
+  border: none;
+  border-radius:4px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.clng-sec div span img{
+  vertical-align: middle;
+  margin-left: 4px;
+}
+.clng-sec div button:hover{
+  background-color: green;
+}
+.clng-sec div p {
+  color: #627382;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.logo-footer{
+  justify-content: space-between;
+  display: flex;
+  margin-top: 100px;
+  padding: 80px 40px 80px 40px;
+  background-color: #001931;
+  color: #F7F6F2;
+}
+.logo-footer div{
+  text-align: center;
+}
+.copyright{
+  text-align: center;
+  color: white;
+  background-color: #001931;
+  padding: 30px 40px 30px 40px;
+}
+.copyright p {
+
+  font-size: 16px;
+}
+.line{
+  margin-bottom: 20px;
+  color: #E5E7EB;
+  opacity: 20%;
+}
